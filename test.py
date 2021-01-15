@@ -113,7 +113,8 @@ def predict():
                     continue
             
         index = max1_index
-        print ("概率：  [%s %0.2f%%]    [%s %0.2f%%]    [%s %0.2f%%]" % (PROVINCES[max1_index],max1*100, PROVINCES[max2_index],max2*100, PROVINCES[max3_index],max3*100))
+        #只显示前3个概率较大的字符信息
+        print ("概率：  [%s %0.2f%%]    [%s %0.2f%%]    [%s %0.2f%%]" % (id_class[max1_index],max1*100, id_class[max2_index],max2*100, id_class[max3_index],max3*100))
         cv.imshow("1",image)
         print ("省份简称是: %s" % id_class[index])
         cv.waitKey(0)     
