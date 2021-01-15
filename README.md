@@ -5,6 +5,8 @@ author="gasquue@gamail.com"
 
 1.目录简介
 test_images:里面都是测试的图片
+
+
 train-saver:保存的权重
 
 
@@ -13,3 +15,5 @@ train-saver:保存的权重
 
 3.所需环境
 pip  install -r requirements.txt  -i https://mirrors.aliyun.com/pypi/simple
+
+4.仔细阅读train-saver/province/下的0.txt文件
