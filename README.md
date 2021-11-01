@@ -1,5 +1,5 @@
 # car_license_
-简单车牌字符分类
+￥简单车牌字符分类
 author="gasquue@gamail.com"
 
 
